@@ -1,0 +1,74 @@
+*{
+    margin:0; 
+    padding:0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+.first{
+    background-color: rgb(71, 127, 179);
+    height: 100px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding-top: 20px;
+}
+.first h1{
+    
+}
+.first h3{
+    font-size: 12px;
+    padding-top: 10px;
+}
+.second {
+    display: grid;
+    grid-template-columns: 1fr ; /* Two equal columns */
+    column-gap: 20px; /* Space between columns */
+    row-gap: 15px; 
+}
+.about-me, .education, .skills, .project, .contact {
+    margin: 10px 90px;
+    padding: 30px;
+    box-shadow: 0 1px 4px 0px #888888;
+    border-radius: 6px ;
+    
+}
+.education{
+    background-color: rgb(190, 236, 252);
+}
+.btn {
+    padding: 10px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    width: 90%;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+}
+.skills .btn{
+    font-weight: 800;
+}
+.skills{
+    background-color: rgb(253, 232, 138);
+}
+.project{
+    background-color: rgb(234, 218, 255);
+}
+.project .btn{
+    font-style: italic;
+}
+.contact{
+    background-color: rgb(227, 255, 231);
+}
+#footer{
+    
+    height: 30px;
+    width: 100%;
+    background-color: rgb(22, 22, 66);
+    color: white;
+
+}
