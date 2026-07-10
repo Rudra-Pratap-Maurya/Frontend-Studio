@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LumiKeys</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎶</text></svg>">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="logo-title">
+        <div class="logo-title">
+          <h2>LumiKeys<span>🎶</span></h2>
+          <p>Turn your keyboard into a piano.</p>
+        </div>
+        <div class="control-capsule">
+          <div class="column volume-slider">
+            <span>
+              <i class="ri-volume-up-fill"></i>
+              Volume
+            </span>
+            <input type="range" min="0" max="1" value="0.5" step="any" />
+          </div>
+
+          <div class="column keys-checkbox">
+            <span>
+              <i class="ri-keyboard-fill"></i>
+              Keys
+            </span>
+            <input type="checkbox" checked />
+          </div>
+        </div>
+      </header>
+
+      <ul class="piano-keys">
+        <li class="key white" data-key="a"><span>a</span></li>
+        <li class="key black" data-key="w"><span>w</span></li>
+        <li class="key white" data-key="s"><span>s</span></li>
+        <li class="key black" data-key="e"><span>e</span></li>
+        <li class="key white" data-key="d"><span>d</span></li>
+        <li class="key black" data-key="f"><span>f</span></li>
+        <li class="key white" data-key="t"><span>t</span></li>
+        <li class="key black" data-key="g"><span>g</span></li>
+        <li class="key white" data-key="y"><span>y</span></li>
+        <li class="key black" data-key="h"><span>h</span></li>
+        <li class="key white" data-key="u"><span>u</span></li>
+        <li class="key black" data-key="j"><span>j</span></li>
+        <li class="key white" data-key="k"><span>k</span></li>
+        <li class="key black" data-key="o"><span>o</span></li>
+        <li class="key white" data-key="l"><span>l</span></li>
+        <li class="key black" data-key="p"><span>p</span></li>
+        <li class="key white" data-key=";"><span>;</span></li>
+      </ul>
+      <footer class="footer">
+        Designed & Developed <span></span> by Rudra
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
